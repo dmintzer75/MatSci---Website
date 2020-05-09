@@ -41,9 +41,9 @@ em {
 }
 
 .title-image {
-  width: 70%;
+  width:70%;
   position: relative;
-  left:20%
+  left: 70px;
 }
 
 /* Navigation Bar */
@@ -66,13 +66,15 @@ em {
 /* Title-Buttons */
 
 .download-button {
-  margin: 5% 5% 5% 0;
+  margin: 1% 5% 1% 0;
 }
 
 /* Features section  */
 #features {
   text-align: center;
-
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 .feature-icon {
   color: #FFCB57;
@@ -121,4 +123,38 @@ em {
 
 .pricing-column {
   padding: 2%;
+}
+
+/* Call to Action */
+#action-call {
+  background-color: #FFCB57;
+  text-align: center;
+  padding: 2% 10%;
+}
+.call-to-action {
+  font-weight: bold;
+  color: #fff;
+  margin: 10px;
+}
+
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 2% 20%
+}
+
+.footer-icon {
+  padding: 10px;
+}
+
+/* Responsivness */
+@media (max-width:1000px) {
+  .title-image {
+    position: static;
+    width: 50%;
+  }
+  #title {
+    text-align: center;
+  }
 }
