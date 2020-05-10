@@ -1,7 +1,6 @@
 /* Title section */
 #title {
   background-color: #FFCB57;
-  font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
 
@@ -12,24 +11,13 @@ body {
 .container-fluid {
   padding: 3% 15%;
 }
-h1 {
-  font-weight: 900;
-  font-size: 2.5rem;
+h1, h2, h3 {
+  font-weight: bold;
   line-height: 1.5;
-}
-h2 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 1%;
-}
-h3 {
-  font-size: 1rem;
-  font-weight: bold;
-  margin-bottom: 5px;
 }
 
 p {margin-top: 5px;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 0.9rem;
   color: #8f8f8f;
   margin-top: 0;
@@ -49,7 +37,7 @@ em {
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 3rem;
+  padding: 0 0 1.5rem;
   font-size: 1rem;
 }
 
@@ -68,6 +56,12 @@ em {
 .download-button {
   margin: 1% 5% 1% 0;
 }
+.big-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 auto 20px 0;
+}
 
 /* Features section  */
 #features {
@@ -78,10 +72,13 @@ em {
 }
 .feature-icon {
   color: #FFCB57;
-  margin: 50px 0 10px;
+  margin: 20px 0 10px;
 }
 .feature-icon:hover {
   color: #888888;
+}
+.feature-title {
+  font-size: 1.5rem;
 }
 .feature-description {
   padding-left: 20px;
@@ -99,9 +96,8 @@ em {
   width: 10%;
 }
 
-.testimony {
+.testimonial-text {
   font-size: 1.5rem;
-  font-weight: bold;
   padding: 1% 15%;
   color: #fff;
 }
@@ -122,20 +118,22 @@ em {
   text-align: center;
 }
 
+.pricing-heading {
+  font-size:1.5rem;
+}
 .pricing-column {
   padding: 2%;
 }
+.pricing-title {
+  font-size: 1rem;
+  margin-bottom: 0;
 
+}
 /* Call to Action */
 #action-call {
   background-color: #FFCB57;
   text-align: center;
   padding: 2% 10%;
-}
-.call-to-action {
-  font-weight: bold;
-  color: #fff;
-  margin: 10px;
 }
 
 
